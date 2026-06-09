@@ -23,8 +23,6 @@ An active loop utilizing PyTorch gradient descent (`requires_grad=True`). The AI
 ### Phase 5: Flight Controller (C-LSTM)
 A Clustered Long Short-Term Memory network acts as Edge AI. It ingests 431 MB/s of High-Velocity IIoT sensor data grouped into 4 physical clusters (Left Wing, Right Wing, Tail, Nose). Capable of analyzing spatiotemporal trends, such as an 80th-millisecond micro-burst hitting the left wing, to fire asymmetric wing-twist commands (<10ms) and neutralize aeroelastic flutter.
 
-### Phase 6: Mission Payload & Validation
-A Pre-Trained Multi-FNO (PTM-FNO) is utilized for environmental monitoring to forecast future PM2.5 particle dispersion across a city grid. The simulated dataset of 5,000 drone geometries was statistically validated using a Random Forest Regressor, proving Wing Thickness and Sweep Angle as the primary drivers of aerodynamic drag with a 92.9% accuracy score.
 
 ## Trial Data Specifications & Compute Constraints
 *   **Deep Learning Trial Data:** Initial PyTorch Neural Network architecture tests (VAE and FNO) were trained on a micro-batch of 5 generated `.stl` files (30,000 coordinates per file) to prevent local hardware overheating.
