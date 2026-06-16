@@ -1,10 +1,10 @@
-# Aerominds Bionic Drone Framework
+# Bionic Drone Framework
 
 **Project Owner:** Dhanush Thiyaree (Team Aerominds)
 **Domain:** Artificial Intelligence, Deep Learning, Computational Fluid Dynamics (CFD), Aerospace Engineering.
 
 ## Overview
-This repository contains the Aerominds Bionic Drone Framework, an end-to-end AI-driven pipeline for generating, simulating, and optimizing 3D aerodynamic structures using advanced deep learning techniques such as Variational Autoencoders (VAEs), Fourier Neural Operators (FNOs), and Clustered Long Short-Term Memory networks (C-LSTMs).
+This repository contains the  Bionic Drone Framework, an end-to-end AI-driven pipeline for generating, simulating, and optimizing 3D aerodynamic structures using advanced deep learning techniques such as Variational Autoencoders (VAEs), Fourier Neural Operators (FNOs), and Clustered Long Short-Term Memory networks (C-LSTMs).
 
 ## The 6-Phase Technical Architecture
 
